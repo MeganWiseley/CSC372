@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_VUXFwA_oEe-BqIq0OQEzpw" name="CSC372_Module4_Shapes">
+    <eAnnotations xmi:id="_VYOSEA_oEe-BqIq0OQEzpw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_VYOSEQ_oEe-BqIq0OQEzpw" source="codegen">
+        <details xmi:id="_VYOSEg_oEe-BqIq0OQEzpw" key="codegenDirectory" value="/CSC372_Module4_Shapes/src"/>
+        <details xmi:id="_VkLqcA_oEe-BqIq0OQEzpw" key="AssociatedSourceCode" value="/CSC372_Module4_Shapes/src/Cone.java;1625228967/1;/CSC372_Module4_Shapes/src/Cylinder.java;3885292760/1;/CSC372_Module4_Shapes/src/Shape.java;1145989739/1;/CSC372_Module4_Shapes/src/ShapeArray.java;873967839/1;/CSC372_Module4_Shapes/src/Sphere.java;1297059301/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_VeerEA_oEe-BqIq0OQEzpw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_VeerEQ_oEe-BqIq0OQEzpw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_VeerEg_oEe-BqIq0OQEzpw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_VeerEw_oEe-BqIq0OQEzpw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_VeerFA_oEe-BqIq0OQEzpw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_VeerFQ_oEe-BqIq0OQEzpw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_VeerFg_oEe-BqIq0OQEzpw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_VeerFw_oEe-BqIq0OQEzpw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_VefSIA_oEe-BqIq0OQEzpw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_VebnwA_oEe-BqIq0OQEzpw" name="Cone" visibility="package">
+      <generalization xmi:id="_Vg_zkA_oEe-BqIq0OQEzpw" general="_VepqMA_oEe-BqIq0OQEzpw"/>
+      <ownedAttribute xmi:id="_VhBowA_oEe-BqIq0OQEzpw" name="radius" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_VhDd8A_oEe-BqIq0OQEzpw" name="height" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VhHIUA_oEe-BqIq0OQEzpw" name="Cone" specification="_Vef5MA_oEe-BqIq0OQEzpw">
+        <ownedParameter xmi:id="_VhHIUQ_oEe-BqIq0OQEzpw" name="radius">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_VhHIUg_oEe-BqIq0OQEzpw" name="height">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_VhHIUw_oEe-BqIq0OQEzpw" type="_VebnwA_oEe-BqIq0OQEzpw" direction="return"/>
+        <language>java</language>
+        <body>this.radius = radius;&#xD;
+		this.height = height;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VhHvYA_oEe-BqIq0OQEzpw" name="surfaceArea" specification="_VehHUA_oEe-BqIq0OQEzpw">
+        <ownedParameter xmi:id="_VhHvYQ_oEe-BqIq0OQEzpw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>double slantHeight = Math.sqrt(radius * radius + height * height);&#xD;
+		return Math.PI * radius * (radius + slantHeight);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VhHvYg_oEe-BqIq0OQEzpw" name="volume" specification="_VeiVcg_oEe-BqIq0OQEzpw">
+        <ownedParameter xmi:id="_VhHvYw_oEe-BqIq0OQEzpw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return (Math.PI * radius * radius * height) / 3;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VhHvZA_oEe-BqIq0OQEzpw" name="toString" specification="_VejjkA_oEe-BqIq0OQEzpw">
+        <ownedParameter xmi:id="_VhHvZQ_oEe-BqIq0OQEzpw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return &quot;Cone: \nSurface Area = &quot; + surfaceArea() + &quot;\nVolumne = &quot; + volume();&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_Vef5MA_oEe-BqIq0OQEzpw" name="Cone" method="_VhHIUA_oEe-BqIq0OQEzpw">
+        <eAnnotations xmi:id="_VeggQg_oEe-BqIq0OQEzpw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_VeggQw_oEe-BqIq0OQEzpw" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_VeggQA_oEe-BqIq0OQEzpw" name="radius">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_VeggQQ_oEe-BqIq0OQEzpw" name="height">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_VeggRA_oEe-BqIq0OQEzpw" type="_VebnwA_oEe-BqIq0OQEzpw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_VehHUA_oEe-BqIq0OQEzpw" name="surfaceArea" method="_VhHvYA_oEe-BqIq0OQEzpw">
+        <ownedParameter xmi:id="_VehHUQ_oEe-BqIq0OQEzpw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_VeiVcg_oEe-BqIq0OQEzpw" name="volume" method="_VhHvYg_oEe-BqIq0OQEzpw">
+        <ownedParameter xmi:id="_Vei8gA_oEe-BqIq0OQEzpw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_VejjkA_oEe-BqIq0OQEzpw" name="toString" method="_VhHvZA_oEe-BqIq0OQEzpw">
+        <ownedParameter xmi:id="_VejjkQ_oEe-BqIq0OQEzpw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_VelYwA_oEe-BqIq0OQEzpw" name="Cylinder" visibility="package">
+      <generalization xmi:id="_VhAaoA_oEe-BqIq0OQEzpw" general="_VepqMA_oEe-BqIq0OQEzpw"/>
+      <ownedAttribute xmi:id="_VhEFAQ_oEe-BqIq0OQEzpw" name="radius" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_VhFTIA_oEe-BqIq0OQEzpw" name="height" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VhIWcA_oEe-BqIq0OQEzpw" name="Cylinder" specification="_Vemm4A_oEe-BqIq0OQEzpw">
+        <ownedParameter xmi:id="_VhIWcQ_oEe-BqIq0OQEzpw" name="radius">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_VhIWcg_oEe-BqIq0OQEzpw" name="height">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_VhIWcw_oEe-BqIq0OQEzpw" type="_VelYwA_oEe-BqIq0OQEzpw" direction="return"/>
+        <language>java</language>
+        <body>this.radius = radius;&#xD;
+		this.height = height;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VhIWdA_oEe-BqIq0OQEzpw" name="surfaceArea" specification="_VenN8Q_oEe-BqIq0OQEzpw">
+        <ownedParameter xmi:id="_VhIWdQ_oEe-BqIq0OQEzpw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return 2 * Math.PI * radius * (radius + height);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VhI9gA_oEe-BqIq0OQEzpw" name="volume" specification="_Ven1Aw_oEe-BqIq0OQEzpw">
+        <ownedParameter xmi:id="_VhI9gQ_oEe-BqIq0OQEzpw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return Math.PI * radius * radius * height;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VhI9gg_oEe-BqIq0OQEzpw" name="toString" specification="_VeocFA_oEe-BqIq0OQEzpw">
+        <ownedParameter xmi:id="_VhI9gw_oEe-BqIq0OQEzpw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return &quot;Cylinder: \nSurface Area = &quot; + surfaceArea() + &quot;\nVolume = &quot; + volume();&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_Vemm4A_oEe-BqIq0OQEzpw" name="Cylinder" method="_VhIWcA_oEe-BqIq0OQEzpw">
+        <eAnnotations xmi:id="_Vemm4w_oEe-BqIq0OQEzpw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_Vemm5A_oEe-BqIq0OQEzpw" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_Vemm4Q_oEe-BqIq0OQEzpw" name="radius">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_Vemm4g_oEe-BqIq0OQEzpw" name="height">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_VenN8A_oEe-BqIq0OQEzpw" type="_VelYwA_oEe-BqIq0OQEzpw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_VenN8Q_oEe-BqIq0OQEzpw" name="surfaceArea" method="_VhIWdA_oEe-BqIq0OQEzpw">
+        <ownedParameter xmi:id="_VenN8g_oEe-BqIq0OQEzpw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Ven1Aw_oEe-BqIq0OQEzpw" name="volume" method="_VhI9gA_oEe-BqIq0OQEzpw">
+        <ownedParameter xmi:id="_VeocEA_oEe-BqIq0OQEzpw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_VeocFA_oEe-BqIq0OQEzpw" name="toString" method="_VhI9gg_oEe-BqIq0OQEzpw">
+        <ownedParameter xmi:id="_VepDIA_oEe-BqIq0OQEzpw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_VepqMA_oEe-BqIq0OQEzpw" name="Shape" visibility="package" isAbstract="true">
+      <ownedOperation xmi:id="_VeqRQA_oEe-BqIq0OQEzpw" name="surfaceArea" visibility="package" isAbstract="true">
+        <ownedParameter xmi:id="_VeqRQQ_oEe-BqIq0OQEzpw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_VeqRQg_oEe-BqIq0OQEzpw" name="volume" visibility="package" isAbstract="true">
+        <ownedParameter xmi:id="_Veq4UA_oEe-BqIq0OQEzpw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Veq4UQ_oEe-BqIq0OQEzpw" name="ShapeArray">
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VhI9hA_oEe-BqIq0OQEzpw" name="main" specification="_VerfYA_oEe-BqIq0OQEzpw">
+        <ownedParameter xmi:id="_VhI9hQ_oEe-BqIq0OQEzpw" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VhI9hg_oEe-BqIq0OQEzpw" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>// Creates instances of different shapes&#xD;
+		Sphere sphere = new Sphere(12);&#xD;
+		Cylinder cylinder = new Cylinder(9, 11);&#xD;
+		Cone cone = new Cone(14, 7);&#xD;
+		&#xD;
+		// Array to store the shapes&#xD;
+		Shape[] shapeArray = {sphere, cylinder, cone};&#xD;
+		&#xD;
+		// Iterate through the shapes &#xD;
+		for (Shape shape : shapeArray) {&#xD;
+			&#xD;
+			// Print out the calculations of the shapes&#xD;
+			System.out.println(shape.toString());&#xD;
+			System.out.println();&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_VerfYA_oEe-BqIq0OQEzpw" name="main" isStatic="true" method="_VhI9hA_oEe-BqIq0OQEzpw">
+        <ownedParameter xmi:id="_VerfYQ_oEe-BqIq0OQEzpw" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VerfYg_oEe-BqIq0OQEzpw" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_VerfYw_oEe-BqIq0OQEzpw" name="Sphere" visibility="package">
+      <generalization xmi:id="_VhAaoQ_oEe-BqIq0OQEzpw" general="_VepqMA_oEe-BqIq0OQEzpw"/>
+      <ownedAttribute xmi:id="_VhF6MA_oEe-BqIq0OQEzpw" name="radius" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VhI9hw_oEe-BqIq0OQEzpw" name="Sphere" specification="_VesGcA_oEe-BqIq0OQEzpw">
+        <ownedParameter xmi:id="_VhI9iA_oEe-BqIq0OQEzpw" name="radius">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_VhI9iQ_oEe-BqIq0OQEzpw" type="_VerfYw_oEe-BqIq0OQEzpw" direction="return"/>
+        <language>java</language>
+        <body>this.radius = radius;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VhJkkA_oEe-BqIq0OQEzpw" name="surfaceArea" specification="_VesthA_oEe-BqIq0OQEzpw">
+        <ownedParameter xmi:id="_VhJkkQ_oEe-BqIq0OQEzpw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return 4 * Math.PI * radius *radius;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VhJkkg_oEe-BqIq0OQEzpw" name="volume" specification="_VetUkw_oEe-BqIq0OQEzpw">
+        <ownedParameter xmi:id="_VhJkkw_oEe-BqIq0OQEzpw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return (4 * Math.PI * Math.pow(radius,  3)) / 3;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VhJklA_oEe-BqIq0OQEzpw" name="toString" specification="_Vet7ow_oEe-BqIq0OQEzpw">
+        <ownedParameter xmi:id="_VhJklQ_oEe-BqIq0OQEzpw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return &quot;Sephere: \nSurface Area = &quot; + surfaceArea() + &quot;\nVolume = &quot; + volume();&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_VesGcA_oEe-BqIq0OQEzpw" name="Sphere" method="_VhI9hw_oEe-BqIq0OQEzpw">
+        <eAnnotations xmi:id="_VestgQ_oEe-BqIq0OQEzpw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_Vestgg_oEe-BqIq0OQEzpw" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_VestgA_oEe-BqIq0OQEzpw" name="radius">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_Vestgw_oEe-BqIq0OQEzpw" type="_VerfYw_oEe-BqIq0OQEzpw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_VesthA_oEe-BqIq0OQEzpw" name="surfaceArea" method="_VhJkkA_oEe-BqIq0OQEzpw">
+        <ownedParameter xmi:id="_VesthQ_oEe-BqIq0OQEzpw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_VetUkw_oEe-BqIq0OQEzpw" name="volume" method="_VhJkkg_oEe-BqIq0OQEzpw">
+        <ownedParameter xmi:id="_VetUlA_oEe-BqIq0OQEzpw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Vet7ow_oEe-BqIq0OQEzpw" name="toString" method="_VhJklA_oEe-BqIq0OQEzpw">
+        <ownedParameter xmi:id="_Vet7pA_oEe-BqIq0OQEzpw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <profileApplication xmi:id="_VYPgMA_oEe-BqIq0OQEzpw">
+      <eAnnotations xmi:id="_VYSjgA_oEe-BqIq0OQEzpw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_VYU_wA_oEe-BqIq0OQEzpw" base_Package="_VUXFwA_oEe-BqIq0OQEzpw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VehuYA_oEe-BqIq0OQEzpw" base_Element="_VehHUA_oEe-BqIq0OQEzpw"/>
+  <UMLLabProfile:Annotations xmi:id="_VeiVcA_oEe-BqIq0OQEzpw" base_Element="_VehHUA_oEe-BqIq0OQEzpw">
+    <annotations xmi:id="_VeiVcQ_oEe-BqIq0OQEzpw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Vei8gQ_oEe-BqIq0OQEzpw" base_Element="_VeiVcg_oEe-BqIq0OQEzpw"/>
+  <UMLLabProfile:Annotations xmi:id="_Vei8gg_oEe-BqIq0OQEzpw" base_Element="_VeiVcg_oEe-BqIq0OQEzpw">
+    <annotations xmi:id="_Vei8gw_oEe-BqIq0OQEzpw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Vejjkg_oEe-BqIq0OQEzpw" base_Element="_VejjkA_oEe-BqIq0OQEzpw"/>
+  <UMLLabProfile:Annotations xmi:id="_Vejjkw_oEe-BqIq0OQEzpw" base_Element="_VejjkA_oEe-BqIq0OQEzpw">
+    <annotations xmi:id="_VejjlA_oEe-BqIq0OQEzpw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Ven1AA_oEe-BqIq0OQEzpw" base_Element="_VenN8Q_oEe-BqIq0OQEzpw"/>
+  <UMLLabProfile:Annotations xmi:id="_Ven1AQ_oEe-BqIq0OQEzpw" base_Element="_VenN8Q_oEe-BqIq0OQEzpw">
+    <annotations xmi:id="_Ven1Ag_oEe-BqIq0OQEzpw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VeocEQ_oEe-BqIq0OQEzpw" base_Element="_Ven1Aw_oEe-BqIq0OQEzpw"/>
+  <UMLLabProfile:Annotations xmi:id="_VeocEg_oEe-BqIq0OQEzpw" base_Element="_Ven1Aw_oEe-BqIq0OQEzpw">
+    <annotations xmi:id="_VeocEw_oEe-BqIq0OQEzpw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VepDIQ_oEe-BqIq0OQEzpw" base_Element="_VeocFA_oEe-BqIq0OQEzpw"/>
+  <UMLLabProfile:Annotations xmi:id="_VepDIg_oEe-BqIq0OQEzpw" base_Element="_VeocFA_oEe-BqIq0OQEzpw">
+    <annotations xmi:id="_VepDIw_oEe-BqIq0OQEzpw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VetUkA_oEe-BqIq0OQEzpw" base_Element="_VesthA_oEe-BqIq0OQEzpw"/>
+  <UMLLabProfile:Annotations xmi:id="_VetUkQ_oEe-BqIq0OQEzpw" base_Element="_VesthA_oEe-BqIq0OQEzpw">
+    <annotations xmi:id="_VetUkg_oEe-BqIq0OQEzpw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Vet7oA_oEe-BqIq0OQEzpw" base_Element="_VetUkw_oEe-BqIq0OQEzpw"/>
+  <UMLLabProfile:Annotations xmi:id="_Vet7oQ_oEe-BqIq0OQEzpw" base_Element="_VetUkw_oEe-BqIq0OQEzpw">
+    <annotations xmi:id="_Vet7og_oEe-BqIq0OQEzpw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VeuisA_oEe-BqIq0OQEzpw" base_Element="_Vet7ow_oEe-BqIq0OQEzpw"/>
+  <UMLLabProfile:Annotations xmi:id="_VeuisQ_oEe-BqIq0OQEzpw" base_Element="_Vet7ow_oEe-BqIq0OQEzpw">
+    <annotations xmi:id="_Veuisg_oEe-BqIq0OQEzpw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VhCP0A_oEe-BqIq0OQEzpw" base_Element="_VhBowA_oEe-BqIq0OQEzpw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VhEFAA_oEe-BqIq0OQEzpw" base_Element="_VhDd8A_oEe-BqIq0OQEzpw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VhEsEA_oEe-BqIq0OQEzpw" base_Element="_VhEFAQ_oEe-BqIq0OQEzpw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VhFTIQ_oEe-BqIq0OQEzpw" base_Element="_VhFTIA_oEe-BqIq0OQEzpw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_VhF6MQ_oEe-BqIq0OQEzpw" base_Element="_VhF6MA_oEe-BqIq0OQEzpw"/>
+</xmi:XMI>

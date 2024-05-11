@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_VVXyYA_oEe-BqIq0OQEzpw">
+  <modelElement href="CSC372_Module4_Shapes.uml#_VUXFwA_oEe-BqIq0OQEzpw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_VkWpkA_oEe-BqIq0OQEzpw" sourceAnchor="170.0,0.0" targetAnchor="91.0,73.0" superClass="_VkX3sA_oEe-BqIq0OQEzpw" subClass="_VkSYIA_oEe-BqIq0OQEzpw">
+    <modelElement href="CSC372_Module4_Shapes.uml#_VhAaoA_oEe-BqIq0OQEzpw"/>
+    <bendpoints xmi:id="_VnrqYA_oEe-BqIq0OQEzpw" sourceY="-150" targetX="386" targetY="28"/>
+    <bendpoints xmi:id="_VnrqYQ_oEe-BqIq0OQEzpw" sourceX="-386" sourceY="-150" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_VkZs4A_oEe-BqIq0OQEzpw" sourceAnchor="143.0,0.0" targetAnchor="91.0,73.0" superClass="_VkX3sA_oEe-BqIq0OQEzpw" subClass="_VkbiEA_oEe-BqIq0OQEzpw">
+    <modelElement href="CSC372_Module4_Shapes.uml#_Vg_zkA_oEe-BqIq0OQEzpw"/>
+    <bendpoints xmi:id="_VnsRcA_oEe-BqIq0OQEzpw" sourceY="-27" targetX="-30" targetY="28"/>
+    <bendpoints xmi:id="_VnsRcQ_oEe-BqIq0OQEzpw" sourceX="30" sourceY="-27" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_VkgakA_oEe-BqIq0OQEzpw" sourceAnchor="118.0,0.0" targetAnchor="91.0,73.0" superClass="_VkX3sA_oEe-BqIq0OQEzpw" subClass="_Vki20A_oEe-BqIq0OQEzpw">
+    <modelElement href="CSC372_Module4_Shapes.uml#_VhAaoQ_oEe-BqIq0OQEzpw"/>
+    <bendpoints xmi:id="_VnsRcg_oEe-BqIq0OQEzpw" sourceY="-46" targetX="-368" targetY="28"/>
+    <bendpoints xmi:id="_VnsRcw_oEe-BqIq0OQEzpw" sourceX="368" sourceY="-46" targetY="28"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VkSYIA_oEe-BqIq0OQEzpw" name="Cylinder" generalizations="_VkWpkA_oEe-BqIq0OQEzpw">
+    <modelElement href="CSC372_Module4_Shapes.uml#_VelYwA_oEe-BqIq0OQEzpw"/>
+    <visualProperties xmi:id="_VkSYIQ_oEe-BqIq0OQEzpw" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VkSYIg_oEe-BqIq0OQEzpw" label="~"/>
+    <attributes xmi:id="_VkSYIw_oEe-BqIq0OQEzpw" name="radius">
+      <modelElement href="CSC372_Module4_Shapes.uml#_VhEFAQ_oEe-BqIq0OQEzpw"/>
+      <stereotypes xmi:id="_VkSYJA_oEe-BqIq0OQEzpw" name="LegacyStyledElement">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VhEsEA_oEe-BqIq0OQEzpw"/>
+      </stereotypes>
+      <visibility xmi:id="_VkSYJQ_oEe-BqIq0OQEzpw" label="-"/>
+      <cardinality xmi:id="_VkSYJg_oEe-BqIq0OQEzpw" label="1" max="1" min="1"/>
+      <type xmi:id="_VkSYJw_oEe-BqIq0OQEzpw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VkSYKA_oEe-BqIq0OQEzpw" name="height">
+      <modelElement href="CSC372_Module4_Shapes.uml#_VhFTIA_oEe-BqIq0OQEzpw"/>
+      <stereotypes xmi:id="_VkSYKQ_oEe-BqIq0OQEzpw" name="LegacyStyledElement">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VhFTIQ_oEe-BqIq0OQEzpw"/>
+      </stereotypes>
+      <visibility xmi:id="_VkSYKg_oEe-BqIq0OQEzpw" label="-"/>
+      <cardinality xmi:id="_VkSYKw_oEe-BqIq0OQEzpw" label="1" max="1" min="1"/>
+      <type xmi:id="_VkSYLA_oEe-BqIq0OQEzpw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VkSYLQ_oEe-BqIq0OQEzpw" name="Cylinder">
+      <modelElement href="CSC372_Module4_Shapes.uml#_Vemm4A_oEe-BqIq0OQEzpw"/>
+      <keywords xmi:id="_VkSYLg_oEe-BqIq0OQEzpw" keyword="create"/>
+      <visibility xmi:id="_VkSYLw_oEe-BqIq0OQEzpw" label="+"/>
+      <cardinality xmi:id="_VkSYMA_oEe-BqIq0OQEzpw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VkSYMQ_oEe-BqIq0OQEzpw">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VenN8A_oEe-BqIq0OQEzpw"/>
+        <type xmi:id="_VkSYMg_oEe-BqIq0OQEzpw" name="Cylinder">
+          <modelElement href="CSC372_Module4_Shapes.uml#_VelYwA_oEe-BqIq0OQEzpw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VkSYMw_oEe-BqIq0OQEzpw" name="radius">
+        <modelElement href="CSC372_Module4_Shapes.uml#_Vemm4Q_oEe-BqIq0OQEzpw"/>
+        <cardinality xmi:id="_VkSYNA_oEe-BqIq0OQEzpw" label="1" max="1" min="1"/>
+        <type xmi:id="_VkSYNQ_oEe-BqIq0OQEzpw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VkSYNg_oEe-BqIq0OQEzpw" name="height">
+        <modelElement href="CSC372_Module4_Shapes.uml#_Vemm4g_oEe-BqIq0OQEzpw"/>
+        <cardinality xmi:id="_VkSYNw_oEe-BqIq0OQEzpw" label="1" max="1" min="1"/>
+        <type xmi:id="_VkSYOA_oEe-BqIq0OQEzpw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VkSYOQ_oEe-BqIq0OQEzpw" name="surfaceArea">
+      <modelElement href="CSC372_Module4_Shapes.uml#_VenN8Q_oEe-BqIq0OQEzpw"/>
+      <stereotypes xmi:id="_VkSYOg_oEe-BqIq0OQEzpw" name="LegacyStyledElement">
+        <modelElement href="CSC372_Module4_Shapes.uml#_Ven1AA_oEe-BqIq0OQEzpw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VkSYOw_oEe-BqIq0OQEzpw" name="Annotations">
+        <modelElement href="CSC372_Module4_Shapes.uml#_Ven1AQ_oEe-BqIq0OQEzpw"/>
+      </stereotypes>
+      <visibility xmi:id="_VkSYPA_oEe-BqIq0OQEzpw" label="+"/>
+      <cardinality xmi:id="_VkSYPQ_oEe-BqIq0OQEzpw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VkSYPg_oEe-BqIq0OQEzpw">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VenN8g_oEe-BqIq0OQEzpw"/>
+        <type xmi:id="_VkSYPw_oEe-BqIq0OQEzpw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VkSYQA_oEe-BqIq0OQEzpw" name="volume">
+      <modelElement href="CSC372_Module4_Shapes.uml#_Ven1Aw_oEe-BqIq0OQEzpw"/>
+      <stereotypes xmi:id="_VkSYQQ_oEe-BqIq0OQEzpw" name="LegacyStyledElement">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VeocEQ_oEe-BqIq0OQEzpw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VkSYQg_oEe-BqIq0OQEzpw" name="Annotations">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VeocEg_oEe-BqIq0OQEzpw"/>
+      </stereotypes>
+      <visibility xmi:id="_VkSYQw_oEe-BqIq0OQEzpw" label="+"/>
+      <cardinality xmi:id="_VkSYRA_oEe-BqIq0OQEzpw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VkSYRQ_oEe-BqIq0OQEzpw">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VeocEA_oEe-BqIq0OQEzpw"/>
+        <type xmi:id="_VkSYRg_oEe-BqIq0OQEzpw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VkSYRw_oEe-BqIq0OQEzpw" name="toString">
+      <modelElement href="CSC372_Module4_Shapes.uml#_VeocFA_oEe-BqIq0OQEzpw"/>
+      <stereotypes xmi:id="_VkSYSA_oEe-BqIq0OQEzpw" name="LegacyStyledElement">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VepDIQ_oEe-BqIq0OQEzpw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VkSYSQ_oEe-BqIq0OQEzpw" name="Annotations">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VepDIg_oEe-BqIq0OQEzpw"/>
+      </stereotypes>
+      <visibility xmi:id="_VkSYSg_oEe-BqIq0OQEzpw" label="+"/>
+      <cardinality xmi:id="_VkSYSw_oEe-BqIq0OQEzpw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VkSYTA_oEe-BqIq0OQEzpw">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VepDIA_oEe-BqIq0OQEzpw"/>
+        <type xmi:id="_VkSYTQ_oEe-BqIq0OQEzpw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VkX3sA_oEe-BqIq0OQEzpw" name="Shape" abstractClass="true" subclassedBy="_VkWpkA_oEe-BqIq0OQEzpw _VkZs4A_oEe-BqIq0OQEzpw _VkgakA_oEe-BqIq0OQEzpw">
+    <modelElement href="CSC372_Module4_Shapes.uml#_VepqMA_oEe-BqIq0OQEzpw"/>
+    <visualProperties xmi:id="_VkX3sQ_oEe-BqIq0OQEzpw" position="-277.0,-221.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VkX3sg_oEe-BqIq0OQEzpw" label="~"/>
+    <operations xmi:id="_VkX3sw_oEe-BqIq0OQEzpw" abstractOperation="true" name="surfaceArea">
+      <modelElement href="CSC372_Module4_Shapes.uml#_VeqRQA_oEe-BqIq0OQEzpw"/>
+      <visibility xmi:id="_VkX3tA_oEe-BqIq0OQEzpw" label="~"/>
+      <cardinality xmi:id="_VkX3tQ_oEe-BqIq0OQEzpw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VkX3tg_oEe-BqIq0OQEzpw">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VeqRQQ_oEe-BqIq0OQEzpw"/>
+        <type xmi:id="_VkX3tw_oEe-BqIq0OQEzpw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VkX3uA_oEe-BqIq0OQEzpw" abstractOperation="true" name="volume">
+      <modelElement href="CSC372_Module4_Shapes.uml#_VeqRQg_oEe-BqIq0OQEzpw"/>
+      <visibility xmi:id="_VkX3uQ_oEe-BqIq0OQEzpw" label="~"/>
+      <cardinality xmi:id="_VkX3ug_oEe-BqIq0OQEzpw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VkX3uw_oEe-BqIq0OQEzpw">
+        <modelElement href="CSC372_Module4_Shapes.uml#_Veq4UA_oEe-BqIq0OQEzpw"/>
+        <type xmi:id="_VkX3vA_oEe-BqIq0OQEzpw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VkbiEA_oEe-BqIq0OQEzpw" name="Cone" generalizations="_VkZs4A_oEe-BqIq0OQEzpw">
+    <modelElement href="CSC372_Module4_Shapes.uml#_VebnwA_oEe-BqIq0OQEzpw"/>
+    <visualProperties xmi:id="_VkbiEQ_oEe-BqIq0OQEzpw" position="-359.0,-93.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VkbiEg_oEe-BqIq0OQEzpw" label="~"/>
+    <attributes xmi:id="_VkbiEw_oEe-BqIq0OQEzpw" name="radius">
+      <modelElement href="CSC372_Module4_Shapes.uml#_VhBowA_oEe-BqIq0OQEzpw"/>
+      <stereotypes xmi:id="_VkbiFA_oEe-BqIq0OQEzpw" name="LegacyStyledElement">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VhCP0A_oEe-BqIq0OQEzpw"/>
+      </stereotypes>
+      <visibility xmi:id="_VkbiFQ_oEe-BqIq0OQEzpw" label="-"/>
+      <cardinality xmi:id="_VkbiFg_oEe-BqIq0OQEzpw" label="1" max="1" min="1"/>
+      <type xmi:id="_VkbiFw_oEe-BqIq0OQEzpw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VkbiGA_oEe-BqIq0OQEzpw" name="height">
+      <modelElement href="CSC372_Module4_Shapes.uml#_VhDd8A_oEe-BqIq0OQEzpw"/>
+      <stereotypes xmi:id="_VkbiGQ_oEe-BqIq0OQEzpw" name="LegacyStyledElement">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VhEFAA_oEe-BqIq0OQEzpw"/>
+      </stereotypes>
+      <visibility xmi:id="_VkbiGg_oEe-BqIq0OQEzpw" label="-"/>
+      <cardinality xmi:id="_VkbiGw_oEe-BqIq0OQEzpw" label="1" max="1" min="1"/>
+      <type xmi:id="_VkbiHA_oEe-BqIq0OQEzpw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VkbiHQ_oEe-BqIq0OQEzpw" name="Cone">
+      <modelElement href="CSC372_Module4_Shapes.uml#_Vef5MA_oEe-BqIq0OQEzpw"/>
+      <keywords xmi:id="_VkbiHg_oEe-BqIq0OQEzpw" keyword="create"/>
+      <visibility xmi:id="_VkbiHw_oEe-BqIq0OQEzpw" label="+"/>
+      <cardinality xmi:id="_VkbiIA_oEe-BqIq0OQEzpw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VkbiIQ_oEe-BqIq0OQEzpw">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VeggRA_oEe-BqIq0OQEzpw"/>
+        <type xmi:id="_VkbiIg_oEe-BqIq0OQEzpw" name="Cone">
+          <modelElement href="CSC372_Module4_Shapes.uml#_VebnwA_oEe-BqIq0OQEzpw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VkbiIw_oEe-BqIq0OQEzpw" name="radius">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VeggQA_oEe-BqIq0OQEzpw"/>
+        <cardinality xmi:id="_VkbiJA_oEe-BqIq0OQEzpw" label="1" max="1" min="1"/>
+        <type xmi:id="_VkbiJQ_oEe-BqIq0OQEzpw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VkbiJg_oEe-BqIq0OQEzpw" name="height">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VeggQQ_oEe-BqIq0OQEzpw"/>
+        <cardinality xmi:id="_VkbiJw_oEe-BqIq0OQEzpw" label="1" max="1" min="1"/>
+        <type xmi:id="_VkbiKA_oEe-BqIq0OQEzpw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VkbiKQ_oEe-BqIq0OQEzpw" name="surfaceArea">
+      <modelElement href="CSC372_Module4_Shapes.uml#_VehHUA_oEe-BqIq0OQEzpw"/>
+      <stereotypes xmi:id="_VkbiKg_oEe-BqIq0OQEzpw" name="LegacyStyledElement">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VehuYA_oEe-BqIq0OQEzpw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VkbiKw_oEe-BqIq0OQEzpw" name="Annotations">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VeiVcA_oEe-BqIq0OQEzpw"/>
+      </stereotypes>
+      <visibility xmi:id="_VkbiLA_oEe-BqIq0OQEzpw" label="+"/>
+      <cardinality xmi:id="_VkbiLQ_oEe-BqIq0OQEzpw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VkbiLg_oEe-BqIq0OQEzpw">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VehHUQ_oEe-BqIq0OQEzpw"/>
+        <type xmi:id="_VkbiLw_oEe-BqIq0OQEzpw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VkbiMA_oEe-BqIq0OQEzpw" name="volume">
+      <modelElement href="CSC372_Module4_Shapes.uml#_VeiVcg_oEe-BqIq0OQEzpw"/>
+      <stereotypes xmi:id="_VkbiMQ_oEe-BqIq0OQEzpw" name="LegacyStyledElement">
+        <modelElement href="CSC372_Module4_Shapes.uml#_Vei8gQ_oEe-BqIq0OQEzpw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VkbiMg_oEe-BqIq0OQEzpw" name="Annotations">
+        <modelElement href="CSC372_Module4_Shapes.uml#_Vei8gg_oEe-BqIq0OQEzpw"/>
+      </stereotypes>
+      <visibility xmi:id="_VkbiMw_oEe-BqIq0OQEzpw" label="+"/>
+      <cardinality xmi:id="_VkbiNA_oEe-BqIq0OQEzpw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VkbiNQ_oEe-BqIq0OQEzpw">
+        <modelElement href="CSC372_Module4_Shapes.uml#_Vei8gA_oEe-BqIq0OQEzpw"/>
+        <type xmi:id="_VkbiNg_oEe-BqIq0OQEzpw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VkbiNw_oEe-BqIq0OQEzpw" name="toString">
+      <modelElement href="CSC372_Module4_Shapes.uml#_VejjkA_oEe-BqIq0OQEzpw"/>
+      <stereotypes xmi:id="_VkbiOA_oEe-BqIq0OQEzpw" name="LegacyStyledElement">
+        <modelElement href="CSC372_Module4_Shapes.uml#_Vejjkg_oEe-BqIq0OQEzpw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VkbiOQ_oEe-BqIq0OQEzpw" name="Annotations">
+        <modelElement href="CSC372_Module4_Shapes.uml#_Vejjkw_oEe-BqIq0OQEzpw"/>
+      </stereotypes>
+      <visibility xmi:id="_VkbiOg_oEe-BqIq0OQEzpw" label="+"/>
+      <cardinality xmi:id="_VkbiOw_oEe-BqIq0OQEzpw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VkbiPA_oEe-BqIq0OQEzpw">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VejjkQ_oEe-BqIq0OQEzpw"/>
+        <type xmi:id="_VkbiPQ_oEe-BqIq0OQEzpw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VkfMcA_oEe-BqIq0OQEzpw" name="ShapeArray">
+    <modelElement href="CSC372_Module4_Shapes.uml#_Veq4UQ_oEe-BqIq0OQEzpw"/>
+    <visualProperties xmi:id="_VkfMcQ_oEe-BqIq0OQEzpw" position="429.0,9.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VkfMcg_oEe-BqIq0OQEzpw" label="+"/>
+    <operations xmi:id="_VkfMcw_oEe-BqIq0OQEzpw" name="main" staticOperation="true">
+      <modelElement href="CSC372_Module4_Shapes.uml#_VerfYA_oEe-BqIq0OQEzpw"/>
+      <visibility xmi:id="_VkfMdA_oEe-BqIq0OQEzpw" label="+"/>
+      <cardinality xmi:id="_VkfMdQ_oEe-BqIq0OQEzpw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_VkfMdg_oEe-BqIq0OQEzpw" name="args">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VerfYQ_oEe-BqIq0OQEzpw"/>
+        <cardinality xmi:id="_VkfMdw_oEe-BqIq0OQEzpw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_VkfMeA_oEe-BqIq0OQEzpw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Vki20A_oEe-BqIq0OQEzpw" name="Sphere" generalizations="_VkgakA_oEe-BqIq0OQEzpw">
+    <modelElement href="CSC372_Module4_Shapes.uml#_VerfYw_oEe-BqIq0OQEzpw"/>
+    <visualProperties xmi:id="_Vki20Q_oEe-BqIq0OQEzpw" position="-672.0,-74.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Vki20g_oEe-BqIq0OQEzpw" label="~"/>
+    <attributes xmi:id="_Vki20w_oEe-BqIq0OQEzpw" name="radius">
+      <modelElement href="CSC372_Module4_Shapes.uml#_VhF6MA_oEe-BqIq0OQEzpw"/>
+      <stereotypes xmi:id="_Vki21A_oEe-BqIq0OQEzpw" name="LegacyStyledElement">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VhF6MQ_oEe-BqIq0OQEzpw"/>
+      </stereotypes>
+      <visibility xmi:id="_Vki21Q_oEe-BqIq0OQEzpw" label="-"/>
+      <cardinality xmi:id="_Vki21g_oEe-BqIq0OQEzpw" label="1" max="1" min="1"/>
+      <type xmi:id="_Vki21w_oEe-BqIq0OQEzpw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Vki22A_oEe-BqIq0OQEzpw" name="Sphere">
+      <modelElement href="CSC372_Module4_Shapes.uml#_VesGcA_oEe-BqIq0OQEzpw"/>
+      <keywords xmi:id="_Vki22Q_oEe-BqIq0OQEzpw" keyword="create"/>
+      <visibility xmi:id="_Vki22g_oEe-BqIq0OQEzpw" label="+"/>
+      <cardinality xmi:id="_Vki22w_oEe-BqIq0OQEzpw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Vki23A_oEe-BqIq0OQEzpw">
+        <modelElement href="CSC372_Module4_Shapes.uml#_Vestgw_oEe-BqIq0OQEzpw"/>
+        <type xmi:id="_Vki23Q_oEe-BqIq0OQEzpw" name="Sphere">
+          <modelElement href="CSC372_Module4_Shapes.uml#_VerfYw_oEe-BqIq0OQEzpw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Vki23g_oEe-BqIq0OQEzpw" name="radius">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VestgA_oEe-BqIq0OQEzpw"/>
+        <cardinality xmi:id="_Vki23w_oEe-BqIq0OQEzpw" label="1" max="1" min="1"/>
+        <type xmi:id="_Vki24A_oEe-BqIq0OQEzpw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Vki24Q_oEe-BqIq0OQEzpw" name="surfaceArea">
+      <modelElement href="CSC372_Module4_Shapes.uml#_VesthA_oEe-BqIq0OQEzpw"/>
+      <stereotypes xmi:id="_Vki24g_oEe-BqIq0OQEzpw" name="LegacyStyledElement">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VetUkA_oEe-BqIq0OQEzpw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Vki24w_oEe-BqIq0OQEzpw" name="Annotations">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VetUkQ_oEe-BqIq0OQEzpw"/>
+      </stereotypes>
+      <visibility xmi:id="_Vki25A_oEe-BqIq0OQEzpw" label="+"/>
+      <cardinality xmi:id="_Vki25Q_oEe-BqIq0OQEzpw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Vki25g_oEe-BqIq0OQEzpw">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VesthQ_oEe-BqIq0OQEzpw"/>
+        <type xmi:id="_Vki25w_oEe-BqIq0OQEzpw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Vki26A_oEe-BqIq0OQEzpw" name="volume">
+      <modelElement href="CSC372_Module4_Shapes.uml#_VetUkw_oEe-BqIq0OQEzpw"/>
+      <stereotypes xmi:id="_Vki26Q_oEe-BqIq0OQEzpw" name="LegacyStyledElement">
+        <modelElement href="CSC372_Module4_Shapes.uml#_Vet7oA_oEe-BqIq0OQEzpw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Vki26g_oEe-BqIq0OQEzpw" name="Annotations">
+        <modelElement href="CSC372_Module4_Shapes.uml#_Vet7oQ_oEe-BqIq0OQEzpw"/>
+      </stereotypes>
+      <visibility xmi:id="_Vki26w_oEe-BqIq0OQEzpw" label="+"/>
+      <cardinality xmi:id="_Vki27A_oEe-BqIq0OQEzpw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Vki27Q_oEe-BqIq0OQEzpw">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VetUlA_oEe-BqIq0OQEzpw"/>
+        <type xmi:id="_Vki27g_oEe-BqIq0OQEzpw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Vki27w_oEe-BqIq0OQEzpw" name="toString">
+      <modelElement href="CSC372_Module4_Shapes.uml#_Vet7ow_oEe-BqIq0OQEzpw"/>
+      <stereotypes xmi:id="_Vki28A_oEe-BqIq0OQEzpw" name="LegacyStyledElement">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VeuisA_oEe-BqIq0OQEzpw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Vki28Q_oEe-BqIq0OQEzpw" name="Annotations">
+        <modelElement href="CSC372_Module4_Shapes.uml#_VeuisQ_oEe-BqIq0OQEzpw"/>
+      </stereotypes>
+      <visibility xmi:id="_Vki28g_oEe-BqIq0OQEzpw" label="+"/>
+      <cardinality xmi:id="_Vki28w_oEe-BqIq0OQEzpw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Vki29A_oEe-BqIq0OQEzpw">
+        <modelElement href="CSC372_Module4_Shapes.uml#_Vet7pA_oEe-BqIq0OQEzpw"/>
+        <type xmi:id="_Vki29Q_oEe-BqIq0OQEzpw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
